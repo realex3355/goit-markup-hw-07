@@ -3,7 +3,7 @@
  .container {
   width: 1158px;
   }
-
+/* -----------FEATURES-------------- */
   .features {
   padding-top: 120px; 
   padding-bottom: 120px; 
@@ -39,4 +39,27 @@ width: 264px;
 
   .features-list-item:not(:last-child) {
 margin-bottom: 0px;
+}
+
+/* --------------DOING---------- */
+
+.doing {
+  display: block;
+  padding-bottom: 120px;
+}
+
+.doing-title, .custom-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--heading-color);
+margin-bottom: 72px;
+}
+
+.doing-list {
+  display:flex;
+  gap: 24px;
+}
 }

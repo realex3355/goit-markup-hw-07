@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
     .container {width: 768px;}
-   
+   /*----------FEATURES-------------  */
     .features {
   padding-top: 96px; 
   padding-bottom: 96px; 
@@ -22,4 +22,5 @@ text-align: left;
 
 .features-list-item:not(:last-child) {
 margin-bottom: 0px;
+}
 }
