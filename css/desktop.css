@@ -62,4 +62,69 @@ margin-bottom: 72px;
   display:flex;
   gap: 24px;
 }
+
+/* ----------OUR---TEAM---------- */
+.team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team-list {
+  display: flex;
+ flex-wrap: nowrap;
+  gap: 24px;
+}
+
+.team > .container {
+    width: 1158px;
+}
+
+/* -------------CUSTOMERS-------- */
+.customers {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.customers > .container {
+    width: 1158px;
+}
+
+.custom-item {
+  width: calc((100% - 120px)/6);
+  height: 88px;
+
+}
+
+/* ------FOOTER----- */
+.footer > .container {
+  width: 1158px;
+ flex-direction: row;
+}
+
+.footer {
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+
+.footer-right {
+  margin-left: 120px;
+}
+
+.footer-subscr {
+  padding-left: 80px;
+  
+  }
+
+/* .footer-left { 
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;*/
+
+/* .footer-text { 
+color: #E7E9FD;
+margin-top: 16px;
+margin-bottom: 72px;
+}*/
+
 }

@@ -23,4 +23,70 @@ text-align: left;
 .features-list-item:not(:last-child) {
 margin-bottom: 0px;
 }
+
+/* -------------OUR----TEAM------ */
+.team {
+  padding-top: 96px;
+  padding-bottom: 104px;
+}
+.team > .container {
+    width: 582px;
+}
+
+/* ---------CUSTOMERS---------- */
+.customers > .container {
+    width: 582px;
+}
+
+.custom-item {
+  width: calc((100% - 48px)/3);
+  height: 88px;
+}
+
+.custom-list {
+  column-gap: 24px;
+}
+
+/* -----FOOTER----- */
+
+.footer {
+ display: flex; 
+ flex-wrap: wrap;
+ /* flex-direction: column; */
+ /* justify-content: center; */
+ /* align-items: center; */
+}
+
+.footer > .container {
+    width: 582px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.footer-subscr {
+   display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;  
+  }
+
+  .subscr-form {
+  display: flex;
+ flex-direction: row;
+  justify-content: center; 
+  align-items: center; 
+}
+
 }
