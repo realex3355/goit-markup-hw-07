@@ -1,0 +1,25 @@
+@media screen and(min-width: 1200px) {
+ 
+ .container {
+  width: 1158px;
+  }
+    .feature-icon-plate {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ } 
+ 
+ .feature-icon {
+  display: flex;
+ }
+
+ .features-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+width: 264px;
+  
+}
+}
