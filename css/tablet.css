@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+    .container {width: 768px;}
+   
+    .features {
+  padding-top: 96px; 
+  padding-bottom: 96px; 
+}
+
+.features-list-item {
+width: calc((100% - 24px)/2);  
+}  
+
+
+.features-list {
+    row-gap: 72px;
+}
+
+
+.features-point {
+text-align: left;
+}
+
+.features-list-item:not(:last-child) {
+margin-bottom: 0px;
+}
