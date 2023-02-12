@@ -4,11 +4,31 @@
   width: 1158px;
   }
 
-/* -----------HERO---------- */
+/* --------HEADER--------- */
+
+
+.logo-link {
+  margin-right: 76px;
+}
+
+
+
+.header-tel {
+ margin-left: 40px; 
+}
+
+  /* -----------HERO---------- */
+.hero > .container {
+
+  padding-top: 188px; 
+  padding-bottom: 188px; 
+}
+
 .hero {
  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
  rgba(46, 47, 66, 0.7)), 
  url(../img/hero-bg.jpg);
+ max-width: 1440px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -19,6 +39,15 @@
  rgba(46, 47, 66, 0.7)), 
  url(../img/hero-bg-2x.jpg);  
   }
+}
+
+.hero-title {
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 48px;
 }
 
 /* -----------FEATURES-------------- */
