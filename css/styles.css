@@ -103,8 +103,8 @@ color: var(--heading-color);
   display: flex;
   align-items: center;
   justify-content: center;
-   margin-left: auto; 
-   margin-bottom: 16px;
+  margin-left: auto; 
+  margin-bottom: 16px;
 }
 .mob-menu-close-icon {
 }
@@ -128,8 +128,22 @@ color: var(--heading-color);
 .mob-menu-contacts {
 }
 .mob-menu-tel {
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-transform: capitalize;
+color: #4D5AE5;
+margin-bottom: 40px;
+display: inline-block;
 }
 .mob-menu-mail {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #434455;
+display: inline-block;
+margin-bottom: 48px;
 }
 .mob-menu-soc-list {
 }
