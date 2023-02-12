@@ -8,7 +8,9 @@
   gap: 40px;
   margin-right: auto;
 }
-.header-item {
+
+.menu-open {
+  display: none;
 }
 
 .logo-link {

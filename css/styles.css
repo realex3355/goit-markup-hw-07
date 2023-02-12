@@ -65,11 +65,79 @@ color: var(--heading-color);
 /* ----------- */
 .header-list {
   display: none;
- 
-}
+ }
 
 .header-contacts {
    display: none; 
+}
+/* ---------MOB MENU-------------- */
+
+.menu-open {
+  width: 32px;
+  height: 22px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.menu-open-icon {
+  stroke:#000000;
+  }
+
+.mob-menu {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100vw;  
+  height: 100vh;
+  background-color: #ffffff;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.mob-menu-close {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #E7E9FC;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   margin-left: auto; 
+   margin-bottom: 16px;
+}
+.mob-menu-close-icon {
+}
+.mob-menu-list {
+  margin-bottom: 284px;
+}
+
+.mob-menu-item:not(:last-child) {
+margin-bottom: 40px;
+}
+.mob-menu-link {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--heading-color);
+
+}
+
+.mob-menu-contacts {
+}
+.mob-menu-tel {
+}
+.mob-menu-mail {
+}
+.mob-menu-soc-list {
+}
+.mob-menu-soc-item {
+}
+.mob-menu-soc-link {
+}
+.mob-menu-soc-icon {
 }
 
 
