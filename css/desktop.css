@@ -3,6 +3,24 @@
  .container {
   width: 1158px;
   }
+
+/* -----------HERO---------- */
+.hero {
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+ rgba(46, 47, 66, 0.7)), 
+ url(../img/hero-bg.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+ rgba(46, 47, 66, 0.7)), 
+ url(../img/hero-bg-2x.jpg);  
+  }
+}
+
 /* -----------FEATURES-------------- */
   .features {
   padding-top: 120px; 
@@ -126,5 +144,7 @@ color: #E7E9FD;
 margin-top: 16px;
 margin-bottom: 72px;
 }*/
+
+
 
 }
