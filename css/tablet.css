@@ -13,6 +13,10 @@
   display: none;
 }
 
+.mob-menu {
+  display: none;
+}
+
 .logo-link {
   margin-right: 123px;
 }
