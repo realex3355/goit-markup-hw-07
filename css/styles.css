@@ -21,11 +21,12 @@ body {
 
 .list {list-style: none;}
 .link {text-decoration: none;}
+.no-scroll {overflow: hidden;}
 
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 1px solid red;   */
+  /* outline: 1px solid red;    */
   margin: 0 auto;
 }
 
@@ -70,7 +71,6 @@ color: var(--heading-color);
 .header-contacts {
    display: none; 
 }
-/* ---------MOB MENU-------------- */
 
 .menu-open {
   width: 32px;
@@ -84,6 +84,20 @@ color: var(--heading-color);
   stroke:#000000;
   }
 
+/* ---------MOB MENU-------------- */
+.mob-menu > .mob-menu-container {
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+overflow: auto;
+}
+
+.mob-menu-container {
+  max-width: 750px; 
+  padding-left: 20px;
+}
+
 .mob-menu {
   position: fixed;
   top: 0;
@@ -91,8 +105,8 @@ color: var(--heading-color);
   width: 100vw;  
   height: 100vh;
   background-color: #ffffff;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 24px;
+  padding-bottom: 40px;
 }
 .mob-menu-close {
   width: 24px;
@@ -103,18 +117,24 @@ color: var(--heading-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: auto; 
-  margin-bottom: 16px;
-}
-.mob-menu-close-icon {
-}
+  margin-left: auto;
+  margin-right: 24px;
+  }
+
 .mob-menu-list {
-  margin-bottom: 284px;
+  margin-top: 32px;
+  margin-bottom: 200px;
 }
 
 .mob-menu-item:not(:last-child) {
 margin-bottom: 40px;
 }
+
+.mob-menu-item:last-child > .mob-menu-link {
+color: #404BBF;
+
+}
+
 .mob-menu-link {
 font-weight: 700;
 font-size: 36px;
@@ -122,7 +142,6 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--heading-color);
-
 }
 
 .mob-menu-contacts {
@@ -142,7 +161,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #434455;
-display: inline-block;
+display: block;
 margin-bottom: 48px;
 }
 
@@ -150,22 +169,22 @@ margin-bottom: 48px;
 
 .mob-menu-soc-list {
 display: flex;
-justify-content: center;
+justify-content: left;
 gap: 40px;
 }
 .mob-menu-soc-item {
-  /* width: 40px; */
-  /* height: 40px; */
+  width: 40px;
+  height: 40px; 
 
 }
 .mob-menu-soc-link {
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   background-color: #4D5AE5;
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center; 
   transition: background-color var(--transit);                                                                                                                                                                                                                                                                                                                                                                                                                                      
 }
 
@@ -178,14 +197,6 @@ gap: 40px;
   fill: #FFFFFF
 }
 
-.mob-menu-soc-list {
-}
-.mob-menu-soc-item {
-}
-.mob-menu-soc-link {
-}
-.mob-menu-soc-icon {
-}
 
 
 /* ----HERO---- */
