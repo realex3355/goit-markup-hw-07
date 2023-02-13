@@ -129,8 +129,8 @@ color: var(--heading-color);
 }
 .mob-menu-tel {
 font-weight: 600;
-font-size: 36px;
-line-height: 1.11;
+font-size: 30px;
+line-height: 1.2;
 text-transform: capitalize;
 color: #4D5AE5;
 margin-bottom: 40px;
@@ -145,6 +145,39 @@ color: #434455;
 display: inline-block;
 margin-bottom: 48px;
 }
+
+/* -----------mob menu icons---- */
+
+.mob-menu-soc-list {
+display: flex;
+justify-content: center;
+gap: 40px;
+}
+.mob-menu-soc-item {
+  /* width: 40px; */
+  /* height: 40px; */
+
+}
+.mob-menu-soc-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  transition: background-color var(--transit);                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+
+.mob-menu-soc-link:hover,
+.mob-menu-soc-link:focus {
+  background-color: var(--accent-color);
+}
+
+.mob-menu-soc-icon {
+  fill: #FFFFFF
+}
+
 .mob-menu-soc-list {
 }
 .mob-menu-soc-item {
