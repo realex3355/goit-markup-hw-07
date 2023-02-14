@@ -134,6 +134,10 @@ margin-bottom: 0px;
 .team > .container {
     width: 582px;
 }
+.team-list-item {
+  margin-bottom: 0;
+}
+
 
 /* ---------CUSTOMERS---------- */
 .customers > .container {
@@ -152,43 +156,64 @@ margin-bottom: 0px;
 /* -----FOOTER----- */
 
 .footer {
- display: flex; 
- flex-wrap: wrap;
- /* flex-direction: column; */
- /* justify-content: center; */
- /* align-items: center; */
-}
+ }
 
 .footer > .container {
-    width: 582px;
+ max-width: 1000px;
+ display: flex; 
+ flex-wrap: wrap;
+ column-gap: 24px;  
+  align-items: first baseline; 
+ justify-content: start;
+ padding-left: 108px;
+ margin: 0 auto;
 }
 
 .footer-left {
   display: flex;
-  flex-direction: column;
+ flex-direction: column;
  justify-content: center;
- align-items: center;
+ align-items: start;
+}
+.footer-text {
+margin-top: 0;
+margin-bottom: 0px;
 }
 
-.footer-right {
+
+ .footer-right {
   display: flex;
   flex-direction: column;
   justify-content: center; 
-  align-items: center; 
+  align-items: start; 
 }
 
 .footer-subscr {
    display: flex;
   flex-direction: column;
   justify-content: center; 
-  align-items: center;  
+  align-items: start;
+    
   }
 
+  
   .subscr-form {
   display: flex;
  flex-direction: row;
   justify-content: center; 
   align-items: center; 
 }
+
+.subscr-btn {
+   margin-top: 0px;
+   margin-left: 24px;
+}
+
+.send-icon {
+top: 50%;
+
+}
+
+
 
 }
